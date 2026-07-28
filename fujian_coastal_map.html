@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f800badb422373bb2f5889676a4cb6cd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f800badb422373bb2f5889676a4cb6cd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f800badb422373bb2f5889676a4cb6cd = L.map(
+                "map_f800badb422373bb2f5889676a4cb6cd",
+                {
+                    center: [30.0, 120.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47cb9ac6a66359a81f902c76046beea1 = L.tileLayer(
+                "https://webst01.is.autonavi.com/appmaptile?style=6\u0026x={x}\u0026y={y}\u0026z={z}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u00a9 \u9ad8\u5fb7\u5730\u56fe",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_47cb9ac6a66359a81f902c76046beea1.addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var circle_marker_f334f074a5589a20f02821d85f0b8fd4 = L.circleMarker(
+                [41.2679, 123.1736],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_20d5e3bf449760528792f7402b8b1579 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e65a4f6ea6390488b83b8d3930e39eb3 = $(`<div id="html_e65a4f6ea6390488b83b8d3930e39eb3" style="width: 100.0%; height: 100.0%;">辽东镇 (辽阳)</div>`)[0];
+                popup_20d5e3bf449760528792f7402b8b1579.setContent(html_e65a4f6ea6390488b83b8d3930e39eb3);
+            
+        
+
+        circle_marker_f334f074a5589a20f02821d85f0b8fd4.bindPopup(popup_20d5e3bf449760528792f7402b8b1579)
+        ;
+
+        
+    
+    
+            circle_marker_f334f074a5589a20f02821d85f0b8fd4.bindTooltip(
+                `<div>
+                     辽东镇 (辽阳)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_244b19a8f24be263f1c1605be9b9cc91 = L.circleMarker(
+                [41.5981, 121.797],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_6f11371af3eb7d1c816a385dc65b1b5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8dc941f1bd6889b08af0b7231224f44 = $(`<div id="html_c8dc941f1bd6889b08af0b7231224f44" style="width: 100.0%; height: 100.0%;">广宁卫 (北镇)</div>`)[0];
+                popup_6f11371af3eb7d1c816a385dc65b1b5a.setContent(html_c8dc941f1bd6889b08af0b7231224f44);
+            
+        
+
+        circle_marker_244b19a8f24be263f1c1605be9b9cc91.bindPopup(popup_6f11371af3eb7d1c816a385dc65b1b5a)
+        ;
+
+        
+    
+    
+            circle_marker_244b19a8f24be263f1c1605be9b9cc91.bindTooltip(
+                `<div>
+                     广宁卫 (北镇)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_54abb680b741b0541f241e1d0339b8f6 = L.circleMarker(
+                [40.6192, 120.8342],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_5864466c21ec2a65ed8cbfb4e97b067d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcf5d1895f2fcbcde32d47aca09c1b6d = $(`<div id="html_fcf5d1895f2fcbcde32d47aca09c1b6d" style="width: 100.0%; height: 100.0%;">宁远卫 (兴城)</div>`)[0];
+                popup_5864466c21ec2a65ed8cbfb4e97b067d.setContent(html_fcf5d1895f2fcbcde32d47aca09c1b6d);
+            
+        
+
+        circle_marker_54abb680b741b0541f241e1d0339b8f6.bindPopup(popup_5864466c21ec2a65ed8cbfb4e97b067d)
+        ;
+
+        
+    
+    
+            circle_marker_54abb680b741b0541f241e1d0339b8f6.bindTooltip(
+                `<div>
+                     宁远卫 (兴城)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_c735c82465d47f4c4216c48716d1d73a = L.circleMarker(
+                [39.0999, 121.6263],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_089e9c7463cdf313bc8d9e9152cedc52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5897455560e941ea45deb013b317845f = $(`<div id="html_5897455560e941ea45deb013b317845f" style="width: 100.0%; height: 100.0%;">金州卫 (大连)</div>`)[0];
+                popup_089e9c7463cdf313bc8d9e9152cedc52.setContent(html_5897455560e941ea45deb013b317845f);
+            
+        
+
+        circle_marker_c735c82465d47f4c4216c48716d1d73a.bindPopup(popup_089e9c7463cdf313bc8d9e9152cedc52)
+        ;
+
+        
+    
+    
+            circle_marker_c735c82465d47f4c4216c48716d1d73a.bindTooltip(
+                `<div>
+                     金州卫 (大连)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_810a13c7c2a432586aa9b4135fdd2dd1 = L.circleMarker(
+                [37.8104, 120.758],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_0b75af67e424f31c301ff15497c48164 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc834cb69f967927d3d117f3a00bf926 = $(`<div id="html_cc834cb69f967927d3d117f3a00bf926" style="width: 100.0%; height: 100.0%;">登州卫 (蓬莱)</div>`)[0];
+                popup_0b75af67e424f31c301ff15497c48164.setContent(html_cc834cb69f967927d3d117f3a00bf926);
+            
+        
+
+        circle_marker_810a13c7c2a432586aa9b4135fdd2dd1.bindPopup(popup_0b75af67e424f31c301ff15497c48164)
+        ;
+
+        
+    
+    
+            circle_marker_810a13c7c2a432586aa9b4135fdd2dd1.bindTooltip(
+                `<div>
+                     登州卫 (蓬莱)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_1f092ee163c3bf73b9bd2501212524a1 = L.circleMarker(
+                [37.513, 122.113],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_cca5dae1fb95b0c312003cf17e53b75e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b304a5b3ef0bebcc223f919b19fe3e1a = $(`<div id="html_b304a5b3ef0bebcc223f919b19fe3e1a" style="width: 100.0%; height: 100.0%;">威海卫 (威海)</div>`)[0];
+                popup_cca5dae1fb95b0c312003cf17e53b75e.setContent(html_b304a5b3ef0bebcc223f919b19fe3e1a);
+            
+        
+
+        circle_marker_1f092ee163c3bf73b9bd2501212524a1.bindPopup(popup_cca5dae1fb95b0c312003cf17e53b75e)
+        ;
+
+        
+    
+    
+            circle_marker_1f092ee163c3bf73b9bd2501212524a1.bindTooltip(
+                `<div>
+                     威海卫 (威海)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_67d5898bb705f8e5e0814c7f18a3ecd2 = L.circleMarker(
+                [37.165, 122.487],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_b7d1f70aa61d6cf8f181fbf76eb89aac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9a9e002d2abc50ce8ff93dcfe2ea5cc = $(`<div id="html_e9a9e002d2abc50ce8ff93dcfe2ea5cc" style="width: 100.0%; height: 100.0%;">成山卫 (荣成)</div>`)[0];
+                popup_b7d1f70aa61d6cf8f181fbf76eb89aac.setContent(html_e9a9e002d2abc50ce8ff93dcfe2ea5cc);
+            
+        
+
+        circle_marker_67d5898bb705f8e5e0814c7f18a3ecd2.bindPopup(popup_b7d1f70aa61d6cf8f181fbf76eb89aac)
+        ;
+
+        
+    
+    
+            circle_marker_67d5898bb705f8e5e0814c7f18a3ecd2.bindTooltip(
+                `<div>
+                     成山卫 (荣成)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_0c88fd7085bbba2a27546c0119da8149 = L.circleMarker(
+                [35.18, 119.47],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_9db574b5d3ba576ac5afcbba72061bd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd6c2a055119936f5efd8254df712fa4 = $(`<div id="html_fd6c2a055119936f5efd8254df712fa4" style="width: 100.0%; height: 100.0%;">安东卫 (日照)</div>`)[0];
+                popup_9db574b5d3ba576ac5afcbba72061bd8.setContent(html_fd6c2a055119936f5efd8254df712fa4);
+            
+        
+
+        circle_marker_0c88fd7085bbba2a27546c0119da8149.bindPopup(popup_9db574b5d3ba576ac5afcbba72061bd8)
+        ;
+
+        
+    
+    
+            circle_marker_0c88fd7085bbba2a27546c0119da8149.bindTooltip(
+                `<div>
+                     安东卫 (日照)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_e7091a877224c72d38e92fb54229d1d0 = L.circleMarker(
+                [35.89, 120.03],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_5311f8e96b76df0f649988c06f96d430 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f5338a8538d87b44f858c4b62d64de2 = $(`<div id="html_1f5338a8538d87b44f858c4b62d64de2" style="width: 100.0%; height: 100.0%;">灵山卫 (青岛)</div>`)[0];
+                popup_5311f8e96b76df0f649988c06f96d430.setContent(html_1f5338a8538d87b44f858c4b62d64de2);
+            
+        
+
+        circle_marker_e7091a877224c72d38e92fb54229d1d0.bindPopup(popup_5311f8e96b76df0f649988c06f96d430)
+        ;
+
+        
+    
+    
+            circle_marker_e7091a877224c72d38e92fb54229d1d0.bindTooltip(
+                `<div>
+                     灵山卫 (青岛)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_5600cba08a3fb29c0c3f91d6d9648e68 = L.circleMarker(
+                [30.74, 121.33],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_c1f8bfd6d372627403dfa8395e3924af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a70fd8918df039f34d7af42d8760b486 = $(`<div id="html_a70fd8918df039f34d7af42d8760b486" style="width: 100.0%; height: 100.0%;">金山卫 (上海)</div>`)[0];
+                popup_c1f8bfd6d372627403dfa8395e3924af.setContent(html_a70fd8918df039f34d7af42d8760b486);
+            
+        
+
+        circle_marker_5600cba08a3fb29c0c3f91d6d9648e68.bindPopup(popup_c1f8bfd6d372627403dfa8395e3924af)
+        ;
+
+        
+    
+    
+            circle_marker_5600cba08a3fb29c0c3f91d6d9648e68.bindTooltip(
+                `<div>
+                     金山卫 (上海)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_16922b6e9c966c1d445ed04a33e6977f = L.circleMarker(
+                [31.45, 121.11],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_a60d63fdc194a78b95ddca3a814a52c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c45c006e2af6a426fcd3f2b56d50e1ee = $(`<div id="html_c45c006e2af6a426fcd3f2b56d50e1ee" style="width: 100.0%; height: 100.0%;">太仓卫 (太仓)</div>`)[0];
+                popup_a60d63fdc194a78b95ddca3a814a52c6.setContent(html_c45c006e2af6a426fcd3f2b56d50e1ee);
+            
+        
+
+        circle_marker_16922b6e9c966c1d445ed04a33e6977f.bindPopup(popup_a60d63fdc194a78b95ddca3a814a52c6)
+        ;
+
+        
+    
+    
+            circle_marker_16922b6e9c966c1d445ed04a33e6977f.bindTooltip(
+                `<div>
+                     太仓卫 (太仓)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_345fe3d580dd5fb943645cc4b0be1b53 = L.circleMarker(
+                [32.02, 120.86],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_438442bdcdb163e42bbd0526d06992a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39f1ead31cb423db005d716c766de8d2 = $(`<div id="html_39f1ead31cb423db005d716c766de8d2" style="width: 100.0%; height: 100.0%;">镇海卫 (南通)</div>`)[0];
+                popup_438442bdcdb163e42bbd0526d06992a9.setContent(html_39f1ead31cb423db005d716c766de8d2);
+            
+        
+
+        circle_marker_345fe3d580dd5fb943645cc4b0be1b53.bindPopup(popup_438442bdcdb163e42bbd0526d06992a9)
+        ;
+
+        
+    
+    
+            circle_marker_345fe3d580dd5fb943645cc4b0be1b53.bindTooltip(
+                `<div>
+                     镇海卫 (南通)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_f72f461ed750119aa4f0a03d2a991c38 = L.circleMarker(
+                [32.39, 119.43],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_8a8afa46a37b2b3c6c2caaa8b67f8831 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0296acdfdd5caa30e602f64e39fc60a = $(`<div id="html_a0296acdfdd5caa30e602f64e39fc60a" style="width: 100.0%; height: 100.0%;">扬州卫 (扬州)</div>`)[0];
+                popup_8a8afa46a37b2b3c6c2caaa8b67f8831.setContent(html_a0296acdfdd5caa30e602f64e39fc60a);
+            
+        
+
+        circle_marker_f72f461ed750119aa4f0a03d2a991c38.bindPopup(popup_8a8afa46a37b2b3c6c2caaa8b67f8831)
+        ;
+
+        
+    
+    
+            circle_marker_f72f461ed750119aa4f0a03d2a991c38.bindTooltip(
+                `<div>
+                     扬州卫 (扬州)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_10010569b4a637d5bd14f294b9da357a = L.circleMarker(
+                [29.87, 121.56],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_2bade842c350bb0e815ea9c42263e50d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e802f32785cf29a46814ae3689fdc0c7 = $(`<div id="html_e802f32785cf29a46814ae3689fdc0c7" style="width: 100.0%; height: 100.0%;">定海卫 (宁波)</div>`)[0];
+                popup_2bade842c350bb0e815ea9c42263e50d.setContent(html_e802f32785cf29a46814ae3689fdc0c7);
+            
+        
+
+        circle_marker_10010569b4a637d5bd14f294b9da357a.bindPopup(popup_2bade842c350bb0e815ea9c42263e50d)
+        ;
+
+        
+    
+    
+            circle_marker_10010569b4a637d5bd14f294b9da357a.bindTooltip(
+                `<div>
+                     定海卫 (宁波)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_3d563661d4a56ed308fa4a0277ab9b0c = L.circleMarker(
+                [29.48, 121.87],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_e18502782c1c6587855836aff1a6ace3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dae1399656e1485e3baf73d48f55070b = $(`<div id="html_dae1399656e1485e3baf73d48f55070b" style="width: 100.0%; height: 100.0%;">昌国卫 (象山)</div>`)[0];
+                popup_e18502782c1c6587855836aff1a6ace3.setContent(html_dae1399656e1485e3baf73d48f55070b);
+            
+        
+
+        circle_marker_3d563661d4a56ed308fa4a0277ab9b0c.bindPopup(popup_e18502782c1c6587855836aff1a6ace3)
+        ;
+
+        
+    
+    
+            circle_marker_3d563661d4a56ed308fa4a0277ab9b0c.bindTooltip(
+                `<div>
+                     昌国卫 (象山)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_77cab5a437d8478316c10b125eeba8c9 = L.circleMarker(
+                [28.37, 121.61],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_b1dc8c97ac0612a82c9dd63f8f9ca210 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_351e3aa722660847cf2100c5ca0f8d58 = $(`<div id="html_351e3aa722660847cf2100c5ca0f8d58" style="width: 100.0%; height: 100.0%;">松门卫 (温岭)</div>`)[0];
+                popup_b1dc8c97ac0612a82c9dd63f8f9ca210.setContent(html_351e3aa722660847cf2100c5ca0f8d58);
+            
+        
+
+        circle_marker_77cab5a437d8478316c10b125eeba8c9.bindPopup(popup_b1dc8c97ac0612a82c9dd63f8f9ca210)
+        ;
+
+        
+    
+    
+            circle_marker_77cab5a437d8478316c10b125eeba8c9.bindTooltip(
+                `<div>
+                     松门卫 (温岭)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_5c13b46e6492aa6474137e61654ce877 = L.circleMarker(
+                [28.68, 121.44],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_c096c2ccc4a4b184f3300b33928c5f23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b7293dc9269000c0603b8011b7b4a18 = $(`<div id="html_3b7293dc9269000c0603b8011b7b4a18" style="width: 100.0%; height: 100.0%;">海门卫 (椒江)</div>`)[0];
+                popup_c096c2ccc4a4b184f3300b33928c5f23.setContent(html_3b7293dc9269000c0603b8011b7b4a18);
+            
+        
+
+        circle_marker_5c13b46e6492aa6474137e61654ce877.bindPopup(popup_c096c2ccc4a4b184f3300b33928c5f23)
+        ;
+
+        
+    
+    
+            circle_marker_5c13b46e6492aa6474137e61654ce877.bindTooltip(
+                `<div>
+                     海门卫 (椒江)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_db64f65b08811fd0a5c5402414632383 = L.circleMarker(
+                [28.0, 120.65],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_22adca7e156e1045dfd517e9a4f4d23b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdd449c287285f3c54986dbe1aa6df3a = $(`<div id="html_fdd449c287285f3c54986dbe1aa6df3a" style="width: 100.0%; height: 100.0%;">温州卫 (温州)</div>`)[0];
+                popup_22adca7e156e1045dfd517e9a4f4d23b.setContent(html_fdd449c287285f3c54986dbe1aa6df3a);
+            
+        
+
+        circle_marker_db64f65b08811fd0a5c5402414632383.bindPopup(popup_22adca7e156e1045dfd517e9a4f4d23b)
+        ;
+
+        
+    
+    
+            circle_marker_db64f65b08811fd0a5c5402414632383.bindTooltip(
+                `<div>
+                     温州卫 (温州)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_2504be5b15b5c196b4424a5308ef484e = L.circleMarker(
+                [28.12, 120.97],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_80eb783f6c967db41fed8c57086a6654 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_161c9e807d55581b008b185b20f9c0dc = $(`<div id="html_161c9e807d55581b008b185b20f9c0dc" style="width: 100.0%; height: 100.0%;">磐石卫 (乐清)</div>`)[0];
+                popup_80eb783f6c967db41fed8c57086a6654.setContent(html_161c9e807d55581b008b185b20f9c0dc);
+            
+        
+
+        circle_marker_2504be5b15b5c196b4424a5308ef484e.bindPopup(popup_80eb783f6c967db41fed8c57086a6654)
+        ;
+
+        
+    
+    
+            circle_marker_2504be5b15b5c196b4424a5308ef484e.bindTooltip(
+                `<div>
+                     磐石卫 (乐清)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_5bbdf7e40f305ba25055928d18edc91b = L.circleMarker(
+                [26.0745, 119.2965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_66dd5adb4c314ff7ce5ea0cbd12acd21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13c1e7aa46d0038520d72a53d8b572ab = $(`<div id="html_13c1e7aa46d0038520d72a53d8b572ab" style="width: 100.0%; height: 100.0%;">福州 (三卫)</div>`)[0];
+                popup_66dd5adb4c314ff7ce5ea0cbd12acd21.setContent(html_13c1e7aa46d0038520d72a53d8b572ab);
+            
+        
+
+        circle_marker_5bbdf7e40f305ba25055928d18edc91b.bindPopup(popup_66dd5adb4c314ff7ce5ea0cbd12acd21)
+        ;
+
+        
+    
+    
+            circle_marker_5bbdf7e40f305ba25055928d18edc91b.bindTooltip(
+                `<div>
+                     福州 (三卫)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_b83bd3c6a405f63371444e064118f4d5 = L.circleMarker(
+                [25.4324, 119.0104],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_cf26f32e32dd8a920875ccbb7c554a7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_365e994267d2d60f32e283ca4dc0ddd3 = $(`<div id="html_365e994267d2d60f32e283ca4dc0ddd3" style="width: 100.0%; height: 100.0%;">兴化 (平海卫)</div>`)[0];
+                popup_cf26f32e32dd8a920875ccbb7c554a7d.setContent(html_365e994267d2d60f32e283ca4dc0ddd3);
+            
+        
+
+        circle_marker_b83bd3c6a405f63371444e064118f4d5.bindPopup(popup_cf26f32e32dd8a920875ccbb7c554a7d)
+        ;
+
+        
+    
+    
+            circle_marker_b83bd3c6a405f63371444e064118f4d5.bindTooltip(
+                `<div>
+                     兴化 (平海卫)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_00e2fafc5c174d98aacd10082fc73128 = L.circleMarker(
+                [24.8741, 118.6757],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_bda88e1175a8efbda87d0ca457a1085d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecdffe6e9f084181af019672d402940a = $(`<div id="html_ecdffe6e9f084181af019672d402940a" style="width: 100.0%; height: 100.0%;">泉州 (永宁卫)</div>`)[0];
+                popup_bda88e1175a8efbda87d0ca457a1085d.setContent(html_ecdffe6e9f084181af019672d402940a);
+            
+        
+
+        circle_marker_00e2fafc5c174d98aacd10082fc73128.bindPopup(popup_bda88e1175a8efbda87d0ca457a1085d)
+        ;
+
+        
+    
+    
+            circle_marker_00e2fafc5c174d98aacd10082fc73128.bindTooltip(
+                `<div>
+                     泉州 (永宁卫)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_68895adfd1f0c9201c5fe9f242056f1d = L.circleMarker(
+                [24.4231, 117.8244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_df733e09cffe773f295968f1470bffbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d97f8cecce5556d79b3f48016cc58ed3 = $(`<div id="html_d97f8cecce5556d79b3f48016cc58ed3" style="width: 100.0%; height: 100.0%;">漳州 (镇海卫)</div>`)[0];
+                popup_df733e09cffe773f295968f1470bffbb.setContent(html_d97f8cecce5556d79b3f48016cc58ed3);
+            
+        
+
+        circle_marker_68895adfd1f0c9201c5fe9f242056f1d.bindPopup(popup_df733e09cffe773f295968f1470bffbb)
+        ;
+
+        
+    
+    
+            circle_marker_68895adfd1f0c9201c5fe9f242056f1d.bindTooltip(
+                `<div>
+                     漳州 (镇海卫)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_f4ee4d7dc497ac8db5412780e513c0b9 = L.circleMarker(
+                [24.433, 117.925],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_ba867f8e5f490d2477be36aa27723d81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30203698700e632d82556858185636af = $(`<div id="html_30203698700e632d82556858185636af" style="width: 100.0%; height: 100.0%;">月港 (海澄)</div>`)[0];
+                popup_ba867f8e5f490d2477be36aa27723d81.setContent(html_30203698700e632d82556858185636af);
+            
+        
+
+        circle_marker_f4ee4d7dc497ac8db5412780e513c0b9.bindPopup(popup_ba867f8e5f490d2477be36aa27723d81)
+        ;
+
+        
+    
+    
+            circle_marker_f4ee4d7dc497ac8db5412780e513c0b9.bindTooltip(
+                `<div>
+                     月港 (海澄)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_1b10fbcc8245a48648912d9a30d2ba7a = L.circleMarker(
+                [24.4798, 118.0894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_dc58a37210f27075c562504b3e55c0d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_851e0ef0fa44923836b7bdb8c8dd509a = $(`<div id="html_851e0ef0fa44923836b7bdb8c8dd509a" style="width: 100.0%; height: 100.0%;">厦门 (中左所)</div>`)[0];
+                popup_dc58a37210f27075c562504b3e55c0d1.setContent(html_851e0ef0fa44923836b7bdb8c8dd509a);
+            
+        
+
+        circle_marker_1b10fbcc8245a48648912d9a30d2ba7a.bindPopup(popup_dc58a37210f27075c562504b3e55c0d1)
+        ;
+
+        
+    
+    
+            circle_marker_1b10fbcc8245a48648912d9a30d2ba7a.bindTooltip(
+                `<div>
+                     厦门 (中左所)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_4b3ed31a262965738c8d6eace3cf6104 = L.circleMarker(
+                [23.7, 117.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_dc9e4867a4858a41e66c6add040cba29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33d41731241a56c7a69006a7b149da9c = $(`<div id="html_33d41731241a56c7a69006a7b149da9c" style="width: 100.0%; height: 100.0%;">铜山所 (东山)</div>`)[0];
+                popup_dc9e4867a4858a41e66c6add040cba29.setContent(html_33d41731241a56c7a69006a7b149da9c);
+            
+        
+
+        circle_marker_4b3ed31a262965738c8d6eace3cf6104.bindPopup(popup_dc9e4867a4858a41e66c6add040cba29)
+        ;
+
+        
+    
+    
+            circle_marker_4b3ed31a262965738c8d6eace3cf6104.bindTooltip(
+                `<div>
+                     铜山所 (东山)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_70b940764c7134c2676ed86a2e32df1d = L.circleMarker(
+                [23.66, 116.63],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_48bce942d439eae984cfa4f5b5b72fb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84c9b119bdb5bed791487102c8e3b1ab = $(`<div id="html_84c9b119bdb5bed791487102c8e3b1ab" style="width: 100.0%; height: 100.0%;">潮州卫 (潮州)</div>`)[0];
+                popup_48bce942d439eae984cfa4f5b5b72fb2.setContent(html_84c9b119bdb5bed791487102c8e3b1ab);
+            
+        
+
+        circle_marker_70b940764c7134c2676ed86a2e32df1d.bindPopup(popup_48bce942d439eae984cfa4f5b5b72fb2)
+        ;
+
+        
+    
+    
+            circle_marker_70b940764c7134c2676ed86a2e32df1d.bindTooltip(
+                `<div>
+                     潮州卫 (潮州)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_10322720620c5dbca02213732611e97a = L.circleMarker(
+                [22.82, 115.82],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_90691972e646f2c7279b5a27f609f36e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7e0c5c426c8824f2c2a8fa9e47bc378 = $(`<div id="html_e7e0c5c426c8824f2c2a8fa9e47bc378" style="width: 100.0%; height: 100.0%;">碣石卫 (陆丰)</div>`)[0];
+                popup_90691972e646f2c7279b5a27f609f36e.setContent(html_e7e0c5c426c8824f2c2a8fa9e47bc378);
+            
+        
+
+        circle_marker_10322720620c5dbca02213732611e97a.bindPopup(popup_90691972e646f2c7279b5a27f609f36e)
+        ;
+
+        
+    
+    
+            circle_marker_10322720620c5dbca02213732611e97a.bindTooltip(
+                `<div>
+                     碣石卫 (陆丰)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_1744126ec972365653f56dd5e902d1ef = L.circleMarker(
+                [22.59, 114.48],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_ac0dc5fcb0e61d0a69726514756621e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_410fb8c78f7e07425ba9891f7c1aab0d = $(`<div id="html_410fb8c78f7e07425ba9891f7c1aab0d" style="width: 100.0%; height: 100.0%;">大鹏所 (深圳)</div>`)[0];
+                popup_ac0dc5fcb0e61d0a69726514756621e9.setContent(html_410fb8c78f7e07425ba9891f7c1aab0d);
+            
+        
+
+        circle_marker_1744126ec972365653f56dd5e902d1ef.bindPopup(popup_ac0dc5fcb0e61d0a69726514756621e9)
+        ;
+
+        
+    
+    
+            circle_marker_1744126ec972365653f56dd5e902d1ef.bindTooltip(
+                `<div>
+                     大鹏所 (深圳)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_adfb47411e3d512b14508792c3d9aba4 = L.circleMarker(
+                [23.05, 113.75],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_77f33971748ab0acb10271c40c8968d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff6143464b06067184a9b6deaf2dcaab = $(`<div id="html_ff6143464b06067184a9b6deaf2dcaab" style="width: 100.0%; height: 100.0%;">东莞所 (东莞)</div>`)[0];
+                popup_77f33971748ab0acb10271c40c8968d4.setContent(html_ff6143464b06067184a9b6deaf2dcaab);
+            
+        
+
+        circle_marker_adfb47411e3d512b14508792c3d9aba4.bindPopup(popup_77f33971748ab0acb10271c40c8968d4)
+        ;
+
+        
+    
+    
+            circle_marker_adfb47411e3d512b14508792c3d9aba4.bindTooltip(
+                `<div>
+                     东莞所 (东莞)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_7afb1f766f33f426cee487046fc2682c = L.circleMarker(
+                [23.13, 113.26],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_956350dac8b50b14e72ade55fb50f237 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfe4517fc05129c0d94c76c651e40ea5 = $(`<div id="html_dfe4517fc05129c0d94c76c651e40ea5" style="width: 100.0%; height: 100.0%;">广州卫 (广州)</div>`)[0];
+                popup_956350dac8b50b14e72ade55fb50f237.setContent(html_dfe4517fc05129c0d94c76c651e40ea5);
+            
+        
+
+        circle_marker_7afb1f766f33f426cee487046fc2682c.bindPopup(popup_956350dac8b50b14e72ade55fb50f237)
+        ;
+
+        
+    
+    
+            circle_marker_7afb1f766f33f426cee487046fc2682c.bindTooltip(
+                `<div>
+                     广州卫 (广州)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_c3b7334d6cc515e8ae0377b52a37d501 = L.circleMarker(
+                [21.97, 112.79],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_c7cf7c5fac3ac46cd6aa950b988a2bc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c499e532c535c2380fc496a02ce09db = $(`<div id="html_4c499e532c535c2380fc496a02ce09db" style="width: 100.0%; height: 100.0%;">广海卫 (台山)</div>`)[0];
+                popup_c7cf7c5fac3ac46cd6aa950b988a2bc0.setContent(html_4c499e532c535c2380fc496a02ce09db);
+            
+        
+
+        circle_marker_c3b7334d6cc515e8ae0377b52a37d501.bindPopup(popup_c7cf7c5fac3ac46cd6aa950b988a2bc0)
+        ;
+
+        
+    
+    
+            circle_marker_c3b7334d6cc515e8ae0377b52a37d501.bindTooltip(
+                `<div>
+                     广海卫 (台山)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_1f21282cad26af14d348735abb9c57d4 = L.circleMarker(
+                [21.51, 111.02],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_76d3586f60f8005738f930b1dd3a4896 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87315f7e3625114b1e9b22fd48a715df = $(`<div id="html_87315f7e3625114b1e9b22fd48a715df" style="width: 100.0%; height: 100.0%;">神电卫 (电白)</div>`)[0];
+                popup_76d3586f60f8005738f930b1dd3a4896.setContent(html_87315f7e3625114b1e9b22fd48a715df);
+            
+        
+
+        circle_marker_1f21282cad26af14d348735abb9c57d4.bindPopup(popup_76d3586f60f8005738f930b1dd3a4896)
+        ;
+
+        
+    
+    
+            circle_marker_1f21282cad26af14d348735abb9c57d4.bindTooltip(
+                `<div>
+                     神电卫 (电白)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_f1140abe6c612d0807f00169ae48a00b = L.circleMarker(
+                [20.9, 110.1],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_76db319e675c5290ba9044757f37dd64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e7d554b2dcf6a10960624d6397ce838 = $(`<div id="html_5e7d554b2dcf6a10960624d6397ce838" style="width: 100.0%; height: 100.0%;">雷州卫 (雷州)</div>`)[0];
+                popup_76db319e675c5290ba9044757f37dd64.setContent(html_5e7d554b2dcf6a10960624d6397ce838);
+            
+        
+
+        circle_marker_f1140abe6c612d0807f00169ae48a00b.bindPopup(popup_76db319e675c5290ba9044757f37dd64)
+        ;
+
+        
+    
+    
+            circle_marker_f1140abe6c612d0807f00169ae48a00b.bindTooltip(
+                `<div>
+                     雷州卫 (雷州)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var circle_marker_0ce1e00247bba56e6e26f7dfd4553e7f = L.circleMarker(
+                [21.66, 109.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_a7d45657d837fbf62802e802d61b3499 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_525c98dcdf3b482256e654601806342a = $(`<div id="html_525c98dcdf3b482256e654601806342a" style="width: 100.0%; height: 100.0%;">廉州卫 (合浦)</div>`)[0];
+                popup_a7d45657d837fbf62802e802d61b3499.setContent(html_525c98dcdf3b482256e654601806342a);
+            
+        
+
+        circle_marker_0ce1e00247bba56e6e26f7dfd4553e7f.bindPopup(popup_a7d45657d837fbf62802e802d61b3499)
+        ;
+
+        
+    
+    
+            circle_marker_0ce1e00247bba56e6e26f7dfd4553e7f.bindTooltip(
+                `<div>
+                     廉州卫 (合浦)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+            var marker_4293a90d0b3bd49571294f03bc447011 = L.marker(
+                [23.5711, 119.5654],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_808bfc164427689b8f5e72d83fb3bed3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gold",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3fc46f1f1ce55d75e648f3a8518a99a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47b6ebc67acf8ad8140f34284e4103f8 = $(`<div id="html_47b6ebc67acf8ad8140f34284e4103f8" style="width: 100.0%; height: 100.0%;">澎湖巡检司</div>`)[0];
+                popup_b3fc46f1f1ce55d75e648f3a8518a99a.setContent(html_47b6ebc67acf8ad8140f34284e4103f8);
+            
+        
+
+        marker_4293a90d0b3bd49571294f03bc447011.bindPopup(popup_b3fc46f1f1ce55d75e648f3a8518a99a)
+        ;
+
+        
+    
+    
+            marker_4293a90d0b3bd49571294f03bc447011.bindTooltip(
+                `<div>
+                     澎湖巡检司
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_4293a90d0b3bd49571294f03bc447011.setIcon(icon_808bfc164427689b8f5e72d83fb3bed3);
+            
+    
+            var marker_b1cf2dc0d5e0f89cd7c9a1ecb1c1d6d6 = L.marker(
+                [22.9917, 120.2133],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_0af10fc45e233dcebd66b953c47a2c4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gold",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2457124bc9c5a5e618619349de962675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a406a983d0b53b7f57890342bc0e223 = $(`<div id="html_8a406a983d0b53b7f57890342bc0e223" style="width: 100.0%; height: 100.0%;">热兰遮城 (台南)</div>`)[0];
+                popup_2457124bc9c5a5e618619349de962675.setContent(html_8a406a983d0b53b7f57890342bc0e223);
+            
+        
+
+        marker_b1cf2dc0d5e0f89cd7c9a1ecb1c1d6d6.bindPopup(popup_2457124bc9c5a5e618619349de962675)
+        ;
+
+        
+    
+    
+            marker_b1cf2dc0d5e0f89cd7c9a1ecb1c1d6d6.bindTooltip(
+                `<div>
+                     热兰遮城 (台南)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_b1cf2dc0d5e0f89cd7c9a1ecb1c1d6d6.setIcon(icon_0af10fc45e233dcebd66b953c47a2c4c);
+            
+    
+            var marker_b3f173ee1d65f811023350ac9ba0b203 = L.marker(
+                [22.1987, 113.5439],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_7603d29b30b2e4613bbd65092e3c6967 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gold",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43d7505b7f05df69fc76fcbcc7616b8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c86feed8c803073bc626b5b300e1b587 = $(`<div id="html_c86feed8c803073bc626b5b300e1b587" style="width: 100.0%; height: 100.0%;">澳门 (明属香山县)</div>`)[0];
+                popup_43d7505b7f05df69fc76fcbcc7616b8f.setContent(html_c86feed8c803073bc626b5b300e1b587);
+            
+        
+
+        marker_b3f173ee1d65f811023350ac9ba0b203.bindPopup(popup_43d7505b7f05df69fc76fcbcc7616b8f)
+        ;
+
+        
+    
+    
+            marker_b3f173ee1d65f811023350ac9ba0b203.bindTooltip(
+                `<div>
+                     澳门 (明属香山县)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_b3f173ee1d65f811023350ac9ba0b203.setIcon(icon_7603d29b30b2e4613bbd65092e3c6967);
+            
+    
+            var marker_13357db938fec6002f2263f2a9de52f1 = L.marker(
+                [26.2124, 127.6809],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_fed67c16013ef2441496c9253e0c7e8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5665499a7bc1645d3e03f34930c73277 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_632d329668acb23ed5de7fb27c1a1cf3 = $(`<div id="html_632d329668acb23ed5de7fb27c1a1cf3" style="width: 100.0%; height: 100.0%;">琉球 (那霸)</div>`)[0];
+                popup_5665499a7bc1645d3e03f34930c73277.setContent(html_632d329668acb23ed5de7fb27c1a1cf3);
+            
+        
+
+        marker_13357db938fec6002f2263f2a9de52f1.bindPopup(popup_5665499a7bc1645d3e03f34930c73277)
+        ;
+
+        
+    
+    
+            marker_13357db938fec6002f2263f2a9de52f1.bindTooltip(
+                `<div>
+                     琉球 (那霸)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_13357db938fec6002f2263f2a9de52f1.setIcon(icon_fed67c16013ef2441496c9253e0c7e8b);
+            
+    
+            var marker_1cd0b4edd8aa4b4299de8674cad0a3cb = L.marker(
+                [32.7503, 129.8779],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_230e9b66f998099bc4be7e8388f01a8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_752465ae77ccac2dd82d6adec24e22e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0da90d18f95ec4ab30b07fd3f8728dee = $(`<div id="html_0da90d18f95ec4ab30b07fd3f8728dee" style="width: 100.0%; height: 100.0%;">长崎 (日本)</div>`)[0];
+                popup_752465ae77ccac2dd82d6adec24e22e2.setContent(html_0da90d18f95ec4ab30b07fd3f8728dee);
+            
+        
+
+        marker_1cd0b4edd8aa4b4299de8674cad0a3cb.bindPopup(popup_752465ae77ccac2dd82d6adec24e22e2)
+        ;
+
+        
+    
+    
+            marker_1cd0b4edd8aa4b4299de8674cad0a3cb.bindTooltip(
+                `<div>
+                     长崎 (日本)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_1cd0b4edd8aa4b4299de8674cad0a3cb.setIcon(icon_230e9b66f998099bc4be7e8388f01a8b);
+            
+    
+            var marker_c91c55af921fe008093966a2bf8915bb = L.marker(
+                [14.5995, 120.9842],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_ef2cbdad49288863e1270f5e1ff6dc55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "ship",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a05c4ac240d3e2c3f1c171158b6cf3c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2de9e2d83cb14fbfe810e84d5dbde2a0 = $(`<div id="html_2de9e2d83cb14fbfe810e84d5dbde2a0" style="width: 100.0%; height: 100.0%;">马尼拉 (菲律宾)</div>`)[0];
+                popup_a05c4ac240d3e2c3f1c171158b6cf3c6.setContent(html_2de9e2d83cb14fbfe810e84d5dbde2a0);
+            
+        
+
+        marker_c91c55af921fe008093966a2bf8915bb.bindPopup(popup_a05c4ac240d3e2c3f1c171158b6cf3c6)
+        ;
+
+        
+    
+    
+            marker_c91c55af921fe008093966a2bf8915bb.bindTooltip(
+                `<div>
+                     马尼拉 (菲律宾)
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_c91c55af921fe008093966a2bf8915bb.setIcon(icon_ef2cbdad49288863e1270f5e1ff6dc55);
+            
+    
+            var marker_ea762c0d23e73c649e2f5032c1de9080 = L.marker(
+                [23.42, 117.1],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_26ce1889941051883adb6f8729eaeaa8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d72976ca937ae33e2a71a6e23f4aa65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d65abdfc639d275436d36e0786cf965 = $(`<div id="html_5d65abdfc639d275436d36e0786cf965" style="width: 100.0%; height: 100.0%;">南澳（西洋针路）</div>`)[0];
+                popup_2d72976ca937ae33e2a71a6e23f4aa65.setContent(html_5d65abdfc639d275436d36e0786cf965);
+            
+        
+
+        marker_ea762c0d23e73c649e2f5032c1de9080.bindPopup(popup_2d72976ca937ae33e2a71a6e23f4aa65)
+        ;
+
+        
+    
+    
+            marker_ea762c0d23e73c649e2f5032c1de9080.bindTooltip(
+                `<div>
+                     南澳（西洋）
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_ea762c0d23e73c649e2f5032c1de9080.setIcon(icon_26ce1889941051883adb6f8729eaeaa8);
+            
+    
+            var marker_9a4488954e902968bce4fd4477c669d4 = L.marker(
+                [22.6, 114.6],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_2f87cb737c64f8256c73917f179bc110 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_835d27cfce90d2b65f0e938e5beb6dd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f770fe875c74c738d1a97d784bff4bbc = $(`<div id="html_f770fe875c74c738d1a97d784bff4bbc" style="width: 100.0%; height: 100.0%;">大星尖（西洋针路）</div>`)[0];
+                popup_835d27cfce90d2b65f0e938e5beb6dd2.setContent(html_f770fe875c74c738d1a97d784bff4bbc);
+            
+        
+
+        marker_9a4488954e902968bce4fd4477c669d4.bindPopup(popup_835d27cfce90d2b65f0e938e5beb6dd2)
+        ;
+
+        
+    
+    
+            marker_9a4488954e902968bce4fd4477c669d4.bindTooltip(
+                `<div>
+                     大星尖（西洋）
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_9a4488954e902968bce4fd4477c669d4.setIcon(icon_2f87cb737c64f8256c73917f179bc110);
+            
+    
+            var marker_e65b43d1c4a2419c446dd73cbb529169 = L.marker(
+                [19.0, 113.0],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_595cbf2e89e84ac214deb7f3e1402e26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2629eb515f8f3bccad6762328b5b8bef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b544b2dff8cc40089cbecbfa9d68a4c9 = $(`<div id="html_b544b2dff8cc40089cbecbfa9d68a4c9" style="width: 100.0%; height: 100.0%;">七洲洋（西洋针路）</div>`)[0];
+                popup_2629eb515f8f3bccad6762328b5b8bef.setContent(html_b544b2dff8cc40089cbecbfa9d68a4c9);
+            
+        
+
+        marker_e65b43d1c4a2419c446dd73cbb529169.bindPopup(popup_2629eb515f8f3bccad6762328b5b8bef)
+        ;
+
+        
+    
+    
+            marker_e65b43d1c4a2419c446dd73cbb529169.bindTooltip(
+                `<div>
+                     七洲洋（西洋）
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_e65b43d1c4a2419c446dd73cbb529169.setIcon(icon_595cbf2e89e84ac214deb7f3e1402e26);
+            
+    
+            var marker_7262ca0d6319c382870d6386ad34e943 = L.marker(
+                [8.7, 108.6],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_e57ea54cecf54f11d556d97f93aa8ec0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c3a699a40e2be38939200f8c7ee4277 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aae4ea8ca541f4ccd66d80460c1c3f8c = $(`<div id="html_aae4ea8ca541f4ccd66d80460c1c3f8c" style="width: 100.0%; height: 100.0%;">昆仑岛（西洋针路）</div>`)[0];
+                popup_0c3a699a40e2be38939200f8c7ee4277.setContent(html_aae4ea8ca541f4ccd66d80460c1c3f8c);
+            
+        
+
+        marker_7262ca0d6319c382870d6386ad34e943.bindPopup(popup_0c3a699a40e2be38939200f8c7ee4277)
+        ;
+
+        
+    
+    
+            marker_7262ca0d6319c382870d6386ad34e943.bindTooltip(
+                `<div>
+                     昆仑岛（西洋）
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_7262ca0d6319c382870d6386ad34e943.setIcon(icon_e57ea54cecf54f11d556d97f93aa8ec0);
+            
+    
+            var marker_0a4b3b5b0d09ac0bff31f6b43596cfbf = L.marker(
+                [2.2, 102.2],
+                {
+}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+            var icon_e020685a87e87ed7c6e8a93e9d230f00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_047d3e18f66a9a4724a12938696505fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3906c7905ea41901080de8b4036d8360 = $(`<div id="html_3906c7905ea41901080de8b4036d8360" style="width: 100.0%; height: 100.0%;">马六甲（西洋针路）</div>`)[0];
+                popup_047d3e18f66a9a4724a12938696505fc.setContent(html_3906c7905ea41901080de8b4036d8360);
+            
+        
+
+        marker_0a4b3b5b0d09ac0bff31f6b43596cfbf.bindPopup(popup_047d3e18f66a9a4724a12938696505fc)
+        ;
+
+        
+    
+    
+            marker_0a4b3b5b0d09ac0bff31f6b43596cfbf.bindTooltip(
+                `<div>
+                     马六甲（西洋）
+                 </div>`,
+                {
+  "permanent": true,
+  "sticky": false,
+}
+            );
+        
+    
+                marker_0a4b3b5b0d09ac0bff31f6b43596cfbf.setIcon(icon_e020685a87e87ed7c6e8a93e9d230f00);
+            
+    
+            var poly_line_3ee2e25a7de43b4104adb5fdab81c2e9 = L.polyline(
+                [[24.8741, 118.6757], [23.5711, 119.5654], [22.9917, 120.2133]],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gold", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_03809ad330ef20dc2a3fed04bf8bcdce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7661036f5d08a57e77969f8628a32ac6 = $(`<div id="html_7661036f5d08a57e77969f8628a32ac6" style="width: 100.0%; height: 100.0%;">泉州→澎湖→台南航线</div>`)[0];
+                popup_03809ad330ef20dc2a3fed04bf8bcdce.setContent(html_7661036f5d08a57e77969f8628a32ac6);
+            
+        
+
+        poly_line_3ee2e25a7de43b4104adb5fdab81c2e9.bindPopup(popup_03809ad330ef20dc2a3fed04bf8bcdce)
+        ;
+
+        
+    
+    
+            var poly_line_6ee61a8cb1b12b4603913c5c3c5f09a5 = L.polyline(
+                [[24.433, 117.925], [23.42, 117.1], [22.6, 114.6], [19.0, 113.0], [8.7, 108.6], [2.2, 102.2]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_93e427e0bb76cf4ceba068fe5b26d1e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d80c49c58cf506d855d9c4bb6b9d946a = $(`<div id="html_d80c49c58cf506d855d9c4bb6b9d946a" style="width: 100.0%; height: 100.0%;">西洋航线（月港→马六甲，据《东西洋考》）</div>`)[0];
+                popup_93e427e0bb76cf4ceba068fe5b26d1e7.setContent(html_d80c49c58cf506d855d9c4bb6b9d946a);
+            
+        
+
+        poly_line_6ee61a8cb1b12b4603913c5c3c5f09a5.bindPopup(popup_93e427e0bb76cf4ceba068fe5b26d1e7)
+        ;
+
+        
+    
+    
+            var poly_line_36644c0993be8f2aa5628cf23f434e8b = L.polyline(
+                [[24.433, 117.925], [23.57, 119.56], [14.5995, 120.9842]],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gold", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+        var popup_f4154a7fa65d168f5b0c86266717a606 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d04c1f54920f30758e4a385a2ee0b0f9 = $(`<div id="html_d04c1f54920f30758e4a385a2ee0b0f9" style="width: 100.0%; height: 100.0%;">东洋航线（月港→马尼拉，据《东西洋考》）</div>`)[0];
+                popup_f4154a7fa65d168f5b0c86266717a606.setContent(html_d04c1f54920f30758e4a385a2ee0b0f9);
+            
+        
+
+        poly_line_36644c0993be8f2aa5628cf23f434e8b.bindPopup(popup_f4154a7fa65d168f5b0c86266717a606)
+        ;
+
+        
+    
+    
+            tile_layer_47cb9ac6a66359a81f902c76046beea1.addTo(map_f800badb422373bb2f5889676a4cb6cd);
+        
+    
+                marker_4293a90d0b3bd49571294f03bc447011.setIcon(icon_808bfc164427689b8f5e72d83fb3bed3);
+            
+    
+                marker_b1cf2dc0d5e0f89cd7c9a1ecb1c1d6d6.setIcon(icon_0af10fc45e233dcebd66b953c47a2c4c);
+            
+    
+                marker_b3f173ee1d65f811023350ac9ba0b203.setIcon(icon_7603d29b30b2e4613bbd65092e3c6967);
+            
+    
+                marker_13357db938fec6002f2263f2a9de52f1.setIcon(icon_fed67c16013ef2441496c9253e0c7e8b);
+            
+    
+                marker_1cd0b4edd8aa4b4299de8674cad0a3cb.setIcon(icon_230e9b66f998099bc4be7e8388f01a8b);
+            
+    
+                marker_c91c55af921fe008093966a2bf8915bb.setIcon(icon_ef2cbdad49288863e1270f5e1ff6dc55);
+            
+    
+                marker_ea762c0d23e73c649e2f5032c1de9080.setIcon(icon_26ce1889941051883adb6f8729eaeaa8);
+            
+    
+                marker_9a4488954e902968bce4fd4477c669d4.setIcon(icon_2f87cb737c64f8256c73917f179bc110);
+            
+    
+                marker_e65b43d1c4a2419c446dd73cbb529169.setIcon(icon_595cbf2e89e84ac214deb7f3e1402e26);
+            
+    
+                marker_7262ca0d6319c382870d6386ad34e943.setIcon(icon_e57ea54cecf54f11d556d97f93aa8ec0);
+            
+    
+                marker_0a4b3b5b0d09ac0bff31f6b43596cfbf.setIcon(icon_e020685a87e87ed7c6e8a93e9d230f00);
+            
+</script>
+</html>
